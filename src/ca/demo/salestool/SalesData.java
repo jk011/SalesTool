@@ -9,7 +9,13 @@ public class SalesData {
 		System.out.println("Data:");
 		for (int i = 0; i < data.length; i++) 
 		{
+			if(i>0)
+			{
+				System.out.println("previous value >> " + data[i-1]);
+			}
 			System.out.println("next value >> " + data[i]);
+			
+			System.out.println("----");
 		}
 	}
 }
