@@ -11,9 +11,9 @@ public class SalesData {
 		{
 			if(i>0)
 			{
-				System.out.println("previous value >> " + data[i-1]);
+				System.out.println("\t previous value >> " + data[i-1]);
 			}
-			System.out.println("next value >> " + data[i]);
+			System.out.println("\t next value >> " + data[i]);
 			
 			System.out.println("----");
 		}
